@@ -1,3 +1,19 @@
+# 1.3.0
+
+- 支持 KeyMint 4.0 新增的 moudleHash 字段
+- 支持 Android 16
+- 修复偶发注入失败的问题
+- 将 Play 商店加入默认作用列表
+- 修复大量证书链生成问题
+
+---
+
+- Support for the new moduleHash field introduced in KeyMint 4.0
+- Compatibility with Android 16
+- Fixed occasional injection failures 
+- Added Play Store to the default scope list
+- Resolved numerous certificate chain generation issues
+
 # 1.2.1
 
 支持自定义安全补丁级别（请参见 README.md）
