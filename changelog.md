@@ -1,6 +1,6 @@
 # 1.3.0
 
-- 支持 KeyMint 4.0 新增的 moudleHash 字段
+- 支持 KeyMint 4.0 新增的 moduleHash 字段
 - 支持 Android 16
 - 修复偶发注入失败的问题
 - 将 Play 商店加入默认作用列表
