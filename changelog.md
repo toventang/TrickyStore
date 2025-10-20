@@ -1,3 +1,19 @@
+# 1.4.0
+
+- 支持持久化存储已生成的密钥
+- 支持自动解析 AVB key（联发科设备疑似使用了自定义算法，暂不支持）
+- 支持自定义认证密钥的解析和导入
+- 支持拦截并模拟更多 keystore 操作
+- 修复一些证书链生成问题
+
+---
+
+- Support persistent storage of generated keys
+- Support automatic parsing of AVB keys (MediaTek devices seem to use a custom algorithm, currently not supported)
+- Support parsing and importing of custom attestation keys
+- Support intercepting and simulating more keystore operations
+- Fix some certificate chain generation issues
+
 # 1.3.0
 
 - 支持 KeyMint 4.0 新增的 moduleHash 字段
